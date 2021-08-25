@@ -1,6 +1,7 @@
 # design-pattern
 디자인패턴 연습페이지<br>
 <br><br>
+
 1. Strategy Pattern<br>
 전략 패턴 또는 정책 패턴은 실행 중에 알고리즘을 선택할 수 있게 하는 행위 소프트웨어 디자인 패턴<br>
 알고리즘군을 정의하지 않고 각각 캡슐화하여 교환해서 사용할 수 있도록 만든다.<br>
@@ -73,3 +74,9 @@ const kakao: Passport = new Passport(new KaKaoLogin());
 facebook.login()
 kakao.login();
 ```
+<br><br>
+2. Observer Pattern <br>
+한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들한테 연락이 가고 자동으로 내용이 갱신되는 방식<br>
+One-to-many의존성
+
+
